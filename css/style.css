@@ -1,0 +1,185 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: nunito;
+	}
+*{
+	padding: 0;
+	margin: 0;
+	}
+/*Font-Face*/
+@font-face{
+	font-family: 'nunito';
+	src: url('../fonts/Nunito-Regular.ttf');
+	font-style: normal;
+	font-weight: 300;
+	}
+/*---- sliderText---start----*/
+.text{
+	width: 400px; 
+	text-align: center; 
+	position:sticky; top:50%;	 
+	left: 50%; 
+	color:#ed0e16; 
+	font-weight: bold;
+	}
+.text p{
+	font-size: 35px; 
+	color: #2e6fd1; 
+	font-weight: bold;
+	}
+/*---- sliderText---end----*/
+/*----ourservices-----starts----*/
+.icons{
+	width: 70px; 
+	height: 70px;
+	}
+.service{
+	text-align: center;
+	}
+.rowsetting h2{
+	margin-top: 10px;
+	}
+.rowsetting p{
+	margin-top: 10px; 
+	color:#2e6fd1; 
+	}
+.container h1{
+	color:#f1093a;
+	}
+.container p{
+	color:#2e6fd1; 
+	}
+.card{ 
+	width: 100%;
+	}
+.flip-card{ 
+	width: 40%; 
+	float: left; 
+}
+/*--------------ourservices-----end-----*/
+/*-------------Footer-area-----------*/
+.footer-1{list-style: none; padding: 5px;}
+.footer-1 a{color: #fFF; }
+.footer-1 li a:hover{text-decoration: none; color:#2e6fd1;}
+.footer-area{margin-top: 10px; opacity:1;}
+/*.footer-links::after{content: "";  width: 0; height: 2px; background: #fff; transition: width .3s;}*/
+/*.footer-links:hover::after{ width: 100%; transition: width .3s; }*/
+h3{
+	text-decoration: none; 
+	color:#ed0e16; 
+	padding: 5px; }
+.f-logo li{
+	display: inline-block; }
+/*------Footer-area-End---*/
+/*-----------Services_page-------*/
+/*------------cards--------------*/
+.row{
+	width: 100%;
+}
+.container{
+	width: 100%;
+	margin-top: 40px;
+}
+/*------------cards-end-------------*/
+/*-----------Services_page--end-----*/
+
+/*-----------*Login Page----------*/
+
+.btn{
+ width: 200px;
+    height: 55px;
+    float: left;
+    text-decoration: none;
+    color: white;
+    background-color: #ff3548;
+    margin-left: 15px;
+    font-size: 16px;
+    font-family: "Poppins",sans-serif;
+    border: 0px;
+    margin-top: 40px;
+    }
+.btn:hover{
+	width:200px;
+	height:55px;
+	float:left;
+	text-decoration:none;color:#ff3548;
+	background-color:white;margin-left:15px;
+	font-size:16px;
+	font-family:"Poppins",sans-serif;
+	border:0px;
+	margin-top:40px;
+	border:1px solid #ff3548;
+
+}
+.login-box{
+	border-radius: 10px ;
+	}
+.login-box a{
+	text-decoration: none; 
+	color: white; 
+	margin: 5px 0px 5px 15px;
+	}
+.login-box a:hover{
+	color:#CC0000; 
+	}
+/*/--------*Login Page-------*/
+/*---------SingUP--Page------------*/
+.box{
+	border-radius: 10px;
+	}
+.input1{
+	padding: 5px 0px 5px 20px;
+	margin: 20px 0px 0px 15px;
+	color: grey;
+	font-size: 22px;
+	font-family: sans-serif ;
+}
+.ragisterbtn{
+    width: 200px;
+    height: 55px;
+    float: left;
+    text-decoration: none;
+    color: white;
+    background-color: #ff3548;
+    margin-left: 15px;
+    font-size: 16px;
+    font-family: "Poppins",sans-serif;
+    border: 0px;
+	margin-top: 40px;
+	border-radius: 5px;
+}
+.ragisterbtn:hover{
+	width:200px;
+	height:55px;
+	float:left;
+	text-decoration:none;color:#ff3548;
+	background-color:white;
+	margin-left:15px;
+	font-size:16px;
+	font-family:"Poppins",sans-serif;
+	border:0px;
+	margin-top:40px;
+	border:1px solid #ff3548;
+	}
+/*.......Contact-------*/
+
+/*------Merchants-------*/
+.sub-cont{
+	width:250px;
+	float:left;
+	margin: 50px 0px 50px 0px;
+}
+.img11{ 
+	background-size:cover;
+	float:left;
+	width:150px;
+	height:150px;
+	border:1px solid silver;
+	border-radius:10%;
+	margin-left:50px;
+	}
+.img11:hover{
+	transform: scale(1.2);
+}
+

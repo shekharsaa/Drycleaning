@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+
+<?php
+$servername = "localhost";
+$username = "username";
+$password = "password";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+echo "Connected successfully";
+?>
+
+
+	<title>SIGNUP</title>
+	<!-- Bootstrap -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="	https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"> -->
+	<link rel="stylesheet" type="text/css" href="css\style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+	<!-- Header-Section Starts -->
+	<div class="header">
+		
+			<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-dark col-lg-12 offset-lg-">
+
+				<div class="container-fluid text-uppercase">
+  			<a class="navbar-brand" href="#"><img src="images\logo.png" alt="iron master logo"/></a>
+ 			 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+   			 <span class="navbar-toggler-icon"></span>
+ 			 </button>
+
+			  <div class="collapse navbar-collapse text-center "  id="navbarSupportedContent" >
+ 			   <ul class="navbar-nav ml-auto  nav-item">
+  		    <li class="nav-item active">
+  		      <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+    		  </li>
+     			 <li class="nav-item">
+     		   <a class="nav-link text-white" href="services.html">Services</a>
+     		 </li>
+     		 <li class="nav-item ">
+     		   <a class="nav-link text-white" href="#">Book Schedule</a>
+     		 </li>
+     		 <li class="nav-item ">
+     		   <a class="nav-link text-white" href="#">Price</a>
+     		 </li>
+     		 <li class="nav-item ">
+     		   <a class="nav-link text-white" href="#">Ragister</a>
+     		 </li>
+     		 <li class="nav-item ">
+     		   <a class="nav-link text-white" href="#">Login</a>
+     		 </li>
+          	
+          	
+          		  
+  			  </ul>
+    
+ 			 </div>
+ 			</div>
+			</nav>	
+
+
+	</div>	
+	<!-- Header-Section End--- -->
+	<!-- LoginForm------- -->
+	<div class="login-container">
+
+			
+			<div class="login-box">
+				<h1>Ragister</h1>
+					<div class="textbox">
+					<i class="fa fa-user-circle-o" aria-hidden="true"></i>
+					<input type="textbox" name="Name" placeholder="Name" value="">
+					</div>
+					<div class="textbox">
+					<i class="fa fa-user-circle-o" aria-hidden="true"></i>
+					<input type="textbox" name="D.O.B" placeholder="Date Of Birth" value="">
+					</div>
+					<div class="textbox">
+					<i class="fa fa-user-circle-o" aria-hidden="true"></i>
+					<input type="textbox" name="Mobile-No" placeholder="Mobile" value="">
+					</div>
+					<div class="textbox">
+						<i class="fa fa-unlock-alt" aria-hidden="true"></i>
+
+						<input type="password" name="password" placeholder="Password" value="">
+					</div>
+					<div class="textbox">
+						<i class="fa fa-unlock-alt" aria-hidden="true"></i>
+
+						<input type="password" name="confirm-password" placeholder="confirm-password" value="">
+					</div><br><br>
+						<input class="btn" type="button" name="submit" value="Submit">
+						<br><br>
+					<a href="#" ><h6>Forgotton Password</h6></a>
+					<a href="#"><h6>Dont Have Account!</h6></a>  
+					<a href="#"><h6>Create Account!</h6></a>
+
+		
+			</div>
+
+
+
+
+	</div>
+<!-- LoginForm-------end-- -->
+	<!-- ---------Footer-area------- -->
+				<section class="footer-area bg-dark ">
+					
+					<div class="container  ">	
+					<div class="row  text-left ">
+						<div class="col-lg-4">
+							<h3>Our Services</h3>
+							<ul class="footer-1">
+								<li><a href="#">Dry Cleaning</a></li>
+								<li><a href="#">Ironing</a></li>
+								<li><a href="#">Sofa Dry cleaners</a></li>
+								<li><a href="#"> Car Dry Cleaning</a></li>
+							</ul>
+
+
+						</div>
+						<div class="col-lg-4">
+							<h3>Quick Links</h3>
+							<ul class="footer-1">
+								<li><a href="#">AboutUs</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Contact</a></li>
+							</ul>
+
+						</div>
+						<div class="col-lg-4">
+							<h3>Support</h3>
+							<ul class="footer-1">
+								<li><a href="#" class="footer-links>Documantetion"</a></li>
+								<li><a href="#"class="footer-links">FaQ's</a></li>
+								<li><a href="#" class="footer-links">Privacy</a></li>
+								
+							</ul>
+						</div>
+					
+					</div>
+					</div>
+					<div class="footer-logo text-center">
+						<ul class="f-logo">
+							<li><a href="#"><img src="images\facebook.png" class="logo"></a></li>
+							<li><a href="#"><img src="images\instagram.png" class="logo"></a></li>
+							<li><a href="#"><img src="images\youtube.png" class="logo"></a></li>
+						</ul>
+					</div>
+					<div class="copyright text-center">
+						<p><span style="color: #fff;">Copyrighted &#169; By The Clothes Master</span></p>
+						
+
+					</div>
+
+			
+				</section>
+
+		<!-- ---------Footer-area---End---- -->
+	
+</body>
+</html>
