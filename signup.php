@@ -92,6 +92,7 @@ mysqli_close($conn);
   		    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
   		    <link rel="stylesheet" href="css/headercss.css">
   		    <link rel="stylesheet" href="css/style.css">
+            <link rel=icon href=images/favicon.ico>
     </head>
 <!---------------------------------------------------Header-Section-End-------------------------------------------------->
 <!---------------------------------------------------LoginForm----------------------------------------------------------->
@@ -140,13 +141,14 @@ mysqli_close($conn);
         <div class=" col-sm-6 col-lg-5 col-md-8 m-auto bg-light box" >
                 <form action="#" method="Post" class="signupform" enctype="multipart/form-data">
                      <center> <b> <h2 style="padding: 10px 0px 0px 0px"> Merchant Registraion</h2> </b></center>
-                     <input type="text" name="first_name1"  class="input1" placeholder="FIRST NAME" pattern="[A-Za-z]{0-30}" style="width: 90%" required><br>    
-                     <input type="text" name="last_name1"  class="input1" placeholder="LAST NAME" style="width: 90%"> <br>  
-                     <input type="Date" name="dob1" class="input1" placeholder="DATE OF BIRTH" style="width: 90%"><br>  
+                     <input type="text" name="first_name1"  class="input1" placeholder="SHOP NAME" pattern="[A-Za-z]{0-30}" style="width: 90%" required><br>    
+                     <input type="text" name="last_name1"  class="input1" placeholder="DRY CLEANER" style="width: 90%"> <br> 
+                     <p style="margin:10px 0 10px 10px; text-align:center; color:red">Please Enter Estabhlise Date</p>  
+                     <input type="Date" name="dob1" class="input1" placeholder="DATE OF BIRTH" style="width: 90%"><br> 
                      <input type="email" name="email1"  class="input1" placeholder="EMAIL ADDRESS" style="width: 90%" required><br>  
                      <input type="text" name="mobile1"  class="input1" placeholder="MOBILE NUMBER" pattern="[0-9]{10}"   style="width: 90%" min="10"  required
                      title="Fill 10 Digits Mobile.no"><br>
-                     <center><h3 >   Upload Shop Image</h3></center>
+                     <p style="margin:10px 0 10px 10px; text-align:center; color:red">Upload Shop Image</p>
                      <input type="file" name="file1" class="input1" placeholder="Select Image" style="width: 90%; border: 1px solid;"> <br>    
                      <input type="Password" name="pass1"  class="input1" placeholder="PASSWORD" style="width: 90%"  min="6" max="8"
                      pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,12}"; required

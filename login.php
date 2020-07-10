@@ -14,6 +14,7 @@
   			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
   			<link rel="stylesheet" href="css/headercss.css">
 			<link rel="stylesheet" href="css/style.css">
+			<link rel=icon href=images/favicon.ico>
 				<?php 
 					if(isset($_POST['submit'])) {
 						include "conn.php";

@@ -11,6 +11,7 @@
   		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
   		<link rel="stylesheet" href="css/headercss.css">
   		<link rel="stylesheet" href="css/style.css">
+      <link rel=icon href=images/favicon.ico>
   </head>
 <body style="background-image: linear-gradient(#ACDAC9, #F66B80 )">
 <!-----------------------------------------------------------------Header Start--------------------------------------------------------------> 
@@ -32,19 +33,19 @@
           <div class="card col-lg-4 col-md-12 col-sm-12 d-block m-auto" style="width: 18rem;">
                  <img class="card-img-top cards" src="images\card1.jpg" alt="Card image cap" width="100px" height="300px">
                   <div class="card-body ">
-                    <h2>Laundary</h2>
+                    <h2 class="img-discription">Laundary</h2>
                   </div>
             </div>
             <div class="card col-lg-4 col-md-12 col-sm-12  d-block m-auto" style="width: 18rem;">
                 <img class="card-img-top cards" src="images\card2.jpg" alt="Card image cap" width="100px" height="300px">
                   <div class="card-body">
-                    <h2>Dry Cleaning</h2>
+                    <h2 class="img-discription">Dry Cleaning</h2>
                   </div>
               </div>
               <div class="card col-lg-4 col-md-12 col-sm-12  d-block m-auto" style="width: 18rem;">
                    <img class="card-img-top cards" src="images\card3.jpg" alt="Card image cap" width="100px" height="300px">
                       <div class="card-body">
-                         <h2>Esteem Ironing</h2>                 
+                         <h2 class="img-discription">Esteem Ironing</h2>                 
                      </div>
               </div>
        </div>
@@ -54,19 +55,19 @@
           <div class="card col-lg-4 col-md-12 col-sm-12  d-block m-auto" style="width: 18rem;">
                  <img class="card-img-top cards" src="images\card4.jpg" alt="Card image cap" width="100px" height="300px">
                   <div class="card-body ">
-                   <h2>Carpet Cleaning</h2>
+                   <h2 class="img-discription">Carpet Cleaning</h2>
                </div>
               </div>
               <div class="card col-lg-4 col-md-12 col-sm-12  d-block m-auto" style="width: 18rem;">
                  <img class="card-img-top cards" src="images\card5.jpg" alt="Card image cap" width="100px" height="300px">
                     <div class="card-body">
-                      <h2>Shoes Cleaning</h2>
+                      <h2 class="img-discription">Shoes Cleaning</h2>
                     </div>
               </div>
               <div class="card col-lg-4 col-md-12 col-sm-12  d-block m-auto" style="width: 18rem;">
                    <img class="card-img-top cards" src="images\card6.jpg" alt="Card image cap" width="100px" height="300px">
                        <div class="card-body">
-                         <h2>Curtain cleaning</h2>                 
+                         <h2 class="img-discription">Curtain cleaning</h2>                 
                   </div>
             </div>
        </div>
@@ -76,19 +77,19 @@
           <div class="card col-lg-4 col-md-12 col-sm-12  d-block m-auto" style="width: 18rem;">
                  <img class="card-img-top cards" src="images\card7.jpg" alt="Card image cap" width="100px" height="300px">
                   <div class="card-body ">
-                   <h2>Wedding Dress Cleaning</h2>
+                   <h2 class="img-discription">Wedding Dress Cleaning</h2>
                </div>
               </div>
               <div class="card col-lg-4 col-md-12 col-sm-12  d-block m-auto" style="width: 18rem;">
                  <img class="card-img-top cards" src="images\card8.png" alt="Card image cap" width="100px" height="300px">
                     <div class="card-body">
-                      <h2>Leather Jacket Cleaning</h2>
+                      <h2 class="img-discription">Leather Jacket Cleaning</h2>
                     </div>
               </div>
               <div class="card col-lg-4 col-md-12 col-sm-12  d-block m-auto" style="width: 18rem;">
                    <img class="card-img-top cards" src="images\card9.jpg" alt="Card image cap" width="100px" height="340px">
                        <div class="card-body">
-                         <h2>Sofa Cleaning</h2>                 
+                         <h2 class="img-discription">Sofa Cleaning</h2>                 
                   </div>
             </div>
        </div>

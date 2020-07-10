@@ -13,6 +13,7 @@
     		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     		<link rel="stylesheet" href="css/headercss.css">
     		<link rel="stylesheet" href="css/style.css">
+        <link rel=icon href=images/favicon.ico>
   	<!-- -------------Php-Connection-file------------------------------------------------------>
   		<?php
   			require_once "conn.php";
@@ -77,7 +78,7 @@
                     <input type="Email" name="email" id="email" required class="input1" placeholder="Email Address"><br>
                     <input type="text" name="mobile"id="phone" pattern="[0-9]{10}" required class="input1" placeholder="Mobile.No"><br>
                     <textarea name="msg" style="resize: none;" required id="msg" placeholder="Message" class="input1"></textarea><br>
-                    <input type="submit" name="send" class="ragisterbtn">
+                    <input type="submit" name="send" class="ragisterbtn" value="Send">
                   </form>
                 </div>
             </div>
